@@ -1,0 +1,15 @@
+\babel@toc {nil}{}
+\contentsline {section}{\numberline {1}Objetivos}{1}%
+\contentsline {section}{\numberline {2}Metodologia experimental}{2}%
+\contentsline {subsection}{\numberline {2.1}Materiais}{2}%
+\contentsline {subsection}{\numberline {2.2}Testes experimentais}{3}%
+\contentsline {subsubsection}{\numberline {2.2.1}Primeiro Experimento}{3}%
+\contentsline {subsubsection}{\numberline {2.2.2}Segundo Experimento}{3}%
+\contentsline {section}{\numberline {3}Equacionamento}{5}%
+\contentsline {subsection}{\numberline {3.1}Hipóteses, parâmetros e simplificações para o primeiro experimento.}{7}%
+\contentsline {subsection}{\numberline {3.2}Hipóteses, parâmetros e simplificações para o segundo experimento}{8}%
+\contentsline {section}{\numberline {4}Perfil de Temperatura}{9}%
+\contentsline {subsection}{\numberline {4.1}Resultados Teóricos}{9}%
+\contentsline {subsection}{\numberline {4.2}Resultados Experimentais}{10}%
+\contentsline {subsection}{\numberline {4.3}Comparação dos resultados teóricos e experimentais.}{10}%
+\contentsline {section}{Bibliografia}{11}%
