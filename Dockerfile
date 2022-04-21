@@ -42,3 +42,5 @@ WORKDIR /data
 COPY ./scripts/* /
 
 CMD lualatex --version && biber --version
+
+EXPOSE 3543

@@ -5,7 +5,4 @@
 build:
 	docker-compose run create_pdf
 watch:
-	docker-compose run watch
-
-pdf_server:
-	docker-compose run pdf_server
+	docker-compose up
