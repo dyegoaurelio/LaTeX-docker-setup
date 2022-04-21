@@ -22,10 +22,19 @@ RUN apt-get update \
 		texlive-luatex \
 		biber \
 		xz-utils \
+		unzip nodejs npm \
 		python \
 		python-pygments \
 		--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/*
+
+RUN mkdir pdfjs && cd pdfjs \
+	&& wget https://github.com/mozilla/pdf.js/releases/download/v2.13.216/pdfjs-2.13.216-dist.zip  -O pdfjs.zip \
+	&& unzip pdfjs.zip \
+	&& rm pdfjs.zip && cd ..
+
+RUN npm install -g live-server
+
 # This can get removed at some point due to docker-compose
 VOLUME ["/data"]
 

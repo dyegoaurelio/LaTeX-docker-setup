@@ -11,3 +11,13 @@ services:
     volumes:
       - ./:/data
     command: bash scripts/watch.sh
+  
+  pdf_server:
+    build: .
+    volumes:
+      - ./:/data
+    command: bash scripts/pdf_server.sh
+    ports:
+      - "3543:3543"
+    expose:
+      - 3543
